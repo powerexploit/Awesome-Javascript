@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/ankitdobhal/Python-Scripts"><img src="https://thepracticaldev.s3.amazonaws.com/i/2pzrpi2dykdibh9jcizc.png" alt="hacktoberfest"></a>
+  <a href="https://github.com/ankitdobhal/Python-Scripts"><img src="https://thepracticaldev.s3.amazonaws.com/i/13t31zhsu48diy2r6cu0.png" alt="hacktoberfest"></a>
   <br>
  hacktoberfest
   <br>
