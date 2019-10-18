@@ -7,7 +7,7 @@
  * 
  */
 
-function getFibanocciSequence(max) {
+function getFibonacciSequence(max) {
     var fib = []; 
     // define first two numbers
     fib[0] = 0;
@@ -20,5 +20,5 @@ function getFibanocciSequence(max) {
     return fib;
 }
 
-// Show first 30 Fibanocci numbers
-console.log(getFibanocciSequence(30))
+// Show first 30 Fibonacci numbers
+console.log(getFibonacciSequence(30))
