@@ -39,13 +39,16 @@ class PostfixCalculator {
                         //In reality each operator would have a specific implementation.
                         //As this is an example we'll let javascript evaluate the expression.
                         //If we implemented each one separately, then more advanced operators like powers could be added.
-                        stack.push(eval(stack.pop() + token + stack.pop()));
+                        let b = stack.pop();
+                        let a = stack.pop();
+                        stack.push(eval(b + token + a));
                     }else{
                         //Handle error.
                         return "Error - Invalid Expression."
                     }
                 }
             }
+            console.log(stack);
         });
         //Ensure there is only 1 number left in the stack.
         if(stack.length === 1){
