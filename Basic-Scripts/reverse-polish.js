@@ -48,7 +48,6 @@ class PostfixCalculator {
                     }
                 }
             }
-            console.log(stack);
         });
         //Ensure there is only 1 number left in the stack.
         if(stack.length === 1){
@@ -67,4 +66,4 @@ const calculator = new PostfixCalculator();
 //Examples.
 console.log(calculator.calculate('5 5 +'));
 console.log(calculator.calculate('2 3 5 5 + - *'));
-
+console.log(calculator.calculate('15 7 1 1 + - / 3 * 2 1 1 + + -'));
