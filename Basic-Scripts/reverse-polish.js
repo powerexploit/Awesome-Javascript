@@ -41,7 +41,7 @@ class PostfixCalculator {
                         //If we implemented each one separately, then more advanced operators like powers could be added.
                         let b = stack.pop();
                         let a = stack.pop();
-                        stack.push(eval(b + token + a));
+                        stack.push(eval(a + token + b));
                     }else{
                         //Handle error.
                         return "Error - Invalid Expression."
