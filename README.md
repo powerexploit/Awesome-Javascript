@@ -12,3 +12,6 @@ This is basic a repository specially for beginners in Javascript so that you can
 # console.log("Try to give star ✨ this repo and explore it more for beginner's")
 # console.log("Start contributing for hacktoberfest!")
 # console.log("Enjoy with this repo all contribution are welcome!")
+
+For Play Game:
+> Please refer to the play-game.md file.  
