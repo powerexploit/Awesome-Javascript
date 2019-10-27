@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search Array</title>
+  <style>
+    div {
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #6790F8;
+      max-width: 560px;
+      text-align: center;
+      min-height: 550px;
+      box-shadow: 5px 10px 8px 10px #888888;
+      font-family: Arial Narrow;
+      color: white;
+      position: relative;
+    }
+
+    .header-title {
+      padding-top: 40px;
+      font-size: 2.5em;
+    }
+
+    .label-message {
+      font-size: 1.2em;
+    }
+
+    .friend-list li {
+      list-style-type: none;
+      font-size: 1.2em;
+    }
+
+    .search-box {
+      margin: auto;
+      font-size: 1.3em;
+      width: 250px;
+      background: #07205E;
+      color: white;
+      border-block-color: #6790F8;
+    }
+
+    .refresh {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 40px;
+      background-color: tomato;
+      font-size: 1.3em;
+      padding: 3px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p class="header-title">Basic code to search an Array </p>
+    <p class="label-message">Please type friend's name to search.</p>
+    <input class="search-box" type="text" name="search" placeholder="Search friend from list">
+    <ul class="friend-list"></ul>
+
+    <button class="refresh">Clear All Search Again</button>
+
+  </div>
+
+  <script src="Basic-Scripts/search-array.js"></script>
+</body>
+
+</html>
