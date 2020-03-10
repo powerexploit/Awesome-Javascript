@@ -1,6 +1,6 @@
 //array
 
-const superHeros=['Iron man','Spiderman','Capt.America']
+const superHeros=['Iron man','Spiderman','Capt.America','Capt.Marvel']
 console.log(superHeros);
 console.log(superHeros[0]);
 console.log(superHeros.length);
