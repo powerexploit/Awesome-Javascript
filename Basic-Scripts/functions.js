@@ -1,8 +1,5 @@
-let sayhello = function (name) {
-    console.log("Greeting messsage for user");
-    console.log(`Greeting messsage for ${name}` );
-    console.log(`hey ${name}`);
+function sum(a, b)
+ {
+  return a + b;
 }
-
-sayhello('ankit')
-
+document.getElementById("sum").innerHTML = sum(30, 20);

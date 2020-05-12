@@ -1,38 +1,12 @@
-function* generatePrimeNumbersUptoN(n){
-    for(let num of getNumbers(n)){
-        if(isPrime(num)){
-            yield num;
-        }
-        continue;
-    }
-}
-
-function* getNumbers(n){
-    let init = 2;
-    while(true){
-        if(n === init){
-            return n;
-        }
-        yield init++;
-    }
-}
-
-function isPrime(num){
-    for(let i = 2; i * i <= num ; i++){
-        if(num % i === 0){
+function p(n) //function declared
+     {
+    for (var i =2; i< n; i++) //loop for prime number
+     {
+        if (n%i === 0)  //condition for being a prime number
+        {
             return false;
         }
-    }
-    return true;
+        return true; //if condition is false then this will execute
+     }
 }
-
-//Tests
-for(let num of generatePrimeNumbersUptoN(10)){
-    console.log(num);
-}
-for(let num of generatePrimeNumbersUptoN(100)){
-    console.log(num);
-}
-for(let num of generatePrimeNumbersUptoN(1000)){
-    console.log(num);
-}
+console.log(p(44)); // check 44 is prime or not
