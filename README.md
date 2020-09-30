@@ -4,7 +4,7 @@
 
 ## Hacktoberfest
 Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community! Five quality pull requests must be submitted to public GitHub repositories.
-
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/l2pre0fpvpotsttte0f1.jpeg)
 
 ## 📌 Introduction
 A collection of awesome **JavaScript** scripts from basic to advance with task automation scripts. This is the project from which you can learn that how to contribute a open source contest and specially during hacktoberfest for the **JavaScript Coder**. 
