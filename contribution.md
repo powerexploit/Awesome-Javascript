@@ -1,17 +1,20 @@
-# contribution
- If this is your first time to open source contribution in Javascript So that I have created this repo for all the you to start contributing.
+# Contributing to Awesome-Javascript
 
-# How to contribute!
- ## Steps:
-   * fork the [repository](https://github.com/ankitdobhal/Javascript-For-Beginners)
-   * Clone the fork [repo](https://github.com/ankitdobhal/Javascript-For-Beginners)
-     (git clone https://github.com/ankitdobhal/Javascript-For-Beginners)
-   * Create new branch 
-      (git checkout -b <Your-Branch-Name>)
-   * Add files in scripts folder
-      (git add <your-contribution>)
-   * Add a commit message !
-      (git commit -a -m "<Added your message>")
-   * Push changes
-      (git push origin)
-  * Create pull requests
+ I have created this repo for beginners to get started with open source projects with Javascript.
+ 
+ Happy Coding!
+ 
+All code contributions must follow these steps:
+1. Fork the repository
+2. Create your Branch (git checkout -b feature/branchName)
+3. Commit your Changes (git commit -m 'Add New feature')
+4. Push to the Branch (git push origin feature/branchName)
+5. Open a Pull Request
+
+## Adding a New Script
+1. Open [Basic-Scripts](/Basic-Scripts) or [Hack-Scripts](/Hack-Scripts)
+2. Add your script
+3. Commit your changes and submit a pull request
+
+## Other types of contributions
+If you find a way to improve the code or find bugs feel free to open an issue or to contribute.
