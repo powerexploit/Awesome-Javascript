@@ -14,7 +14,7 @@ A collection of awesome **JavaScript** scripts from basic to advance with task a
 - Please make sure to read and follow the [code of conduct](code_of_conduct.md) to make this an open, welcoming, diverse, inclusive, and healthy community.  
 
 >[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md) 
-> >**print("Start contributing for hacktoberfest!")**
+**print("Start contributing for hacktoberfest!")**
 
 
 ## ❤️ Project Maintainer
@@ -41,4 +41,4 @@ Hack-Scripts :
 
 **For Play Game:** Please refer to the [play-game.md](play-game.md) file.  
 
-**For Search array:** Pleae refer to the [search-array.md](search-array.md) file 
+**For Search array:** Please refer to the [search-array.md](search-array.md) file 
