@@ -11,7 +11,7 @@ A collection of awesome **JavaScript** scripts from basic to advance with task a
 
 ##  💥 How to Contribute?
 - All contributions welcomed. Follow these [guidelines](Contribution.md) to contribute.
-- Take a look at [guidelines](Contribution.md).
+- Please make sure to read and follow the [code of conduct](code_of_conduct.md) to make this an open, welcoming, diverse, inclusive, and healthy community.
 
 > print("Start contributing for hacktoberfest!")
 
@@ -28,5 +28,16 @@ A collection of awesome **JavaScript** scripts from basic to advance with task a
 # License
 This project follows GNU [License](LICENSE)
 
-For Play Game:
-> Please refer to the play-game.md file.  
+# About files 
+Basic-Scripts :
+- Contain simple scripts for beginners. 
+
+Hack-Scripts :
+- Contains scripts to hack your life and make it easier (scrapers, automate accepting friend requests)
+
+
+**For digital-watch:** Please refer to the [digital-watch.md](digital-watch.md) file 
+
+**For Play Game:** Please refer to the [play-game.md](play-game.md) file.  
+
+**For Search array:** Pleae refer to the [search-array.md](search-array.md) file 
