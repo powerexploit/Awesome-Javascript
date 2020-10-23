@@ -11,9 +11,10 @@ A collection of awesome **JavaScript** scripts from basic to advance with task a
 
 ##  💥 How to Contribute?
 - All contributions welcomed. Follow these [guidelines](Contribution.md) to contribute.
-- Please make sure to read and follow the [code of conduct](code_of_conduct.md) to make this an open, welcoming, diverse, inclusive, and healthy community.
+- Please make sure to read and follow the [code of conduct](code_of_conduct.md) to make this an open, welcoming, diverse, inclusive, and healthy community.  
 
-> print("Start contributing for hacktoberfest!")
+>[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md) 
+> >**print("Start contributing for hacktoberfest!")**
 
 
 ## ❤️ Project Maintainer
