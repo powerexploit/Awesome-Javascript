@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keeper App</title>
+    <script type="text/javascript" defer src="../Basic-Scripts/keeper.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            background-color: #1f2833;
+            font-family: sans-serif;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #45a29e;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        /* container */
+        .container {
+            min-width: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #66fcf1;
+            font-size: 3rem;
+        }
+
+        /* todo-form */
+
+        .todo-form {
+            margin: 40px 0px;
+        }
+
+        .todo-input {
+            width: 250px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin-right: 10px;
+            font-size: 1rem;
+        }
+
+        .add-button {
+            background-color: #0000ff;
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 7px;
+            font-size: 1.2rem;
+        }
+
+        /* todo-form style ends */
+
+        /* todo-items */
+        .todo-items {
+            min-width: 350px;
+        }
+
+        /* each li with class="item" */
+        .item {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .item:first-child {
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+        }
+
+        .item:last-child {
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+        }
+
+        /* item style end */
+
+        .checkbox {
+            margin-right: 10px;
+        }
+
+        .delete-button {
+            float: right;
+            background-color: #f10030;
+            border: none;
+            outline: none;
+            border-radius: 7px;
+            padding: 2px 5px;
+            margin-left: 10px;
+            font-size: 1.1rem;
+            font-weight: 550;
+        }
+
+        /* applied when the todo item is checked */
+        .checked {
+            text-decoration: line-through;
+            background-color: #66fcf1;
+        }
+
+        /* todo-items style ends */
+
+        /* container style ends */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Keeper App</h1>
+        <form class="todo-form">
+            <input type="text" class="todo-input" placeholder="Add a Note..." />
+            <button type="submit" class="add-button">Add</button>
+        </form>
+        <ul class="todo-items">
+            <!-- dummy item -->
+            <li class="item" data-key="5987461254687">
+                <input class="checkbox" type="checkbox" />
+                Make Js Project
+                <button class="delete-button">X</button>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
